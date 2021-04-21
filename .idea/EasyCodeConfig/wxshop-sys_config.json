@@ -1,0 +1,35 @@
+{
+  "name" : "SysConfig",
+  "originTableName" : "sys_config",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "sysId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sysShop",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "sysTemp",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "org.example.common",
+  "savePath" : "./common-pom/src/main/java/org/example/common",
+  "saveModelName" : "common-pom"
+}

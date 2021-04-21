@@ -1,0 +1,7 @@
+# Project exclude paths
+/auth-9001/target/
+/common-pom/target/
+/eureka-9006/target/
+/goods-9003/target/
+/order-9002/target/
+/seckill-9004/target/

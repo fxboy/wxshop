@@ -1,0 +1,23 @@
+
+# 配置公共的配置文件
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/wxshop?serverTimezone=UTC
+    username: root
+    password: 123456
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+mybatis:
+  mapper-locations: classpath:mapper/*xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+# 商城公共配置设置
+wxshop:
+  eureka:
+    port: 9006

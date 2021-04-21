@@ -1,0 +1,13 @@
+server:
+  port: 9006  # 注册中心的端口号
+spring:
+  application:
+    name: eureka  # 项目名称
+eureka:
+  instance:
+    hostname: localhost  # 注册中心路径
+  client:
+    register-with-eureka: false #表示是否将自己注册到Eureka Server上，默认为true
+    fetch-registry: false       #表示是否从Eureka Server上获取注册信息，默认为true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
